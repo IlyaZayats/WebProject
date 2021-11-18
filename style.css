@@ -10,13 +10,44 @@
     opacity: 0.15;
     filter: blur(2px);
     left: 50%;
-    z-index: 0;
+    z-index: -1;
     position: absolute;
     height: auto;
 }
 
+.header-background{
+    position: absolute;
+    z-index: -2;
+    background: #292b2c;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+
+}
+
+.troll-face{
+    opacity: 0.05;
+    transform: translate(-50%, -50%);
+    width:100%;
+    left: 50%;
+    top:50%;
+}
+
 .achievement-tab {
     border-left: 3px solid darkred;
+}
+
+.extra-text {
+    font-size: 10px;
+}
+
+.text-about-service{
+    font-size: 14px;
+}
+
+.text-about-main{
+    font-size: 22px;
 }
 
 .bck-main{
@@ -34,9 +65,7 @@
 }
 
 .navbar-effect:hover{
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1);
+    border-bottom: darkred;
 }
 
 .navbar-region{
@@ -44,13 +73,17 @@
     height: auto;
     position: relative;
     overflow: hidden;
-    background: #292b2c;
 }
 
 .header-data{
-    z-index: 1;
+    z-index: 2;
     color: white;
     position: center;
 }
 
+@media screen and (max-width: 800px){
+    .video-bck{
+        opacity: 0;
+    }
+}
 
