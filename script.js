@@ -1,17 +1,25 @@
+
+function moveNavbar(){
+    let windowInnerWidth = window.innerWidth;
+    let navbar = $("#navbar");
+    if(windowInnerWidth <= 576) {
+        navbar.addClass("fixed-bottom");
+        navbar.addClass("bg-dark");
+
+    }
+    if(windowInnerWidth >= 576){
+        navbar.removeClass("fixed-bottom");
+        navbar.removeClass("bg-dark");
+    }
+}
+
+
 $(document).ready(function (){
 
-    /*const formModal = $("#formModal");
-    formModal.addEventListener("shown.bs.modal", (ev => window.history.pushState({ "isActive": true }, "", "#form")));
-    formModal.addEventListener("hide.bs.modal", (ev => window.history.pushState({ "isActive": false }, "", "project.html")));
-
-    window.onpopstate = function (event){
-        if(event.state.isActive){
-            formModal.show();
-        } else {
-            formModal.hide();
-        }
-    };
-    */
+    moveNavbar();
+    $(window).resize((event)=>{
+        moveNavbar();
+    });
 
     $("#check").change(function () {
         if ($("#check").is(":checked")) {

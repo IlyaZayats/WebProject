@@ -17,20 +17,25 @@
 
 
 <body>
-    <header>
-        <div class="navbar navbar-expand-md navbar-dark bg-dark">
+    <header class="navbar-region">
+        <video autoplay muted loop class="video-bck">
+            <source src="img/video.mp4" type="video/mp4">
+        </video>
+        <div class="navbar navbar-expand-sm navbar-dark" id="navbar">
             <div class="container-fluid">
-                <a class="navbar-brand main-title text-light" href="#">Project</a>
-                <button class="navbar-toggler custom-shit" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand main-title text-light" href="#">
+                    <img class="img-fluid" src="img/icon.png" alt="Project">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarToggler">
-                    <ul class="navbar-nav mx-auto">
+                    <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active text-light navbar-effect" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active text-light navbar-effect" aria-current="page" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light navbar-effect" href="#">FAQ</a>
+                            <a class="nav-link text-light navbar-effect" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">FAQ</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-light navbar-effect" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
@@ -43,50 +48,52 @@
                                 <li><a class="dropdown-item text-light" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">This button do literally nothing</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item">
-                            <button type="button" class="btn btn-dark navbar-effect" data-toggle="modal" data-target="#formModal">
-                                Contact us!
-                            </button>
-                        </li>
                     </ul>
                 </div>
             </div>
         </div>
-    </header>
-    <div class="bck-main"></div>
-    <div class="modal fade" id="formModal" tabindex="-1" aria-labelledby="formLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="formLabel">Contact us!</h5>
-                    <button type="button" class="btn close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+        <div class="header-data container-fluid">
+            <div class="row d-flex px-2 mt-sm-5 my-2 px-0 pb-3" id="header-data">
+                <div class="col-sm-4 col-10 ms-sm-3 me-sm-2 mx-auto px-0 text-center">
+                    <h3>Developing shit on JS with Bootstrap v5.0.1Alpha</h3>
+                    <h5>Service of development shitty cites on fucked up language, we are working from 2021 bc.</h5>
+                    <a role="button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-outline-light">
+                        Buy our shit!
+                    </a>
                 </div>
-                <div class="modal-body">
-                    <form id="thatForm" action="https://formcarry.com/s/1TauRT8f23J" method="POST" enctype="multipart/form-data" accept-charset="UTF-8">
-                        <label>Имя<br/>
-                            <input type="text" name="userName" class="info">
-                        </label><br/>
-                        <label>Email<br/>
-                            <input type="email" name="userEmail" class="info">
-                        </label><br/>
-                        <label>Сообщение<br/>
-                            <textarea name="userMsg" class="info"></textarea>
-                        </label><br/>
-                        <label>
-                            <input type="checkbox" id="check" class="info">
-                            Я согласен
-                        </label>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" id="submitButton" class="btn btn-primary" disabled>Send!</button>
+                <div class="col-sm-7 col-11 me-sm-3 mx-auto mt-3">
+                    <div class="row">
+                        <div class="col-4 achievement-tab">
+                            <h3>#228</h3>
+                            <p>The worst frontend developer</p>
+                        </div>
+                        <div class="col-4 achievement-tab">
+                            <h3>0+</h3>
+                            <p>Our average work experience</p>
+                        </div>
+                        <div class="col-4 achievement-tab">
+                            <h3>0</h3>
+                            <p>In IT</p>
+                        </div>
+                        <div class="col-4 achievement-tab mt-4">
+                            <h3>999+</h3>
+                            <p>Warnings and errors per line</p>
+                        </div>
+                        <div class="col-4 achievement-tab mt-4">
+                            <h3>#1</h3>
+                            <p>This is first our project cite</p>
+                        </div>
+                        <div class="col-4 achievement-tab mt-4">
+                            <h3>IDK</h3>
+                            <p>IDK what to write here</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+    </header>
+
+    <div class="bck-main"></div>
         <div class="main">
             <div class="container">
                 <div class="row d-flex">
