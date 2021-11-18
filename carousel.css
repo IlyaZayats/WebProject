@@ -1,0 +1,33 @@
+#reviewContainerCarousel{
+    max-width: 720px;
+    background-color: white;
+    border: solid 2px black;
+    padding: 66px 5px 66px 64px;
+}
+.arrowslick{
+    border-top: solid 1px grey;
+}
+.reviewSlide img{
+    margin:0 0 2em 0;
+}
+.workingWithCarouselWrapper{
+  margin: 50px 0 5px 0;
+}
+.workingwithInside{
+  border: solid 2px grey;
+  border-radius: 5px;
+  margin:0 6px;
+}
+.workingwithInside > img {
+   width: 100%;
+   height: auto;
+}
+@media screen and (min-width: 768px){
+    .reviewSlide{
+    border-right: solid 1px grey;
+    margin:auto;
+    }
+    .arrowslick{
+    border-top: 0;
+    }
+}
