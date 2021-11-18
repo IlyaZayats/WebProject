@@ -45,17 +45,13 @@
     height: 60vh;
     position: relative;
     overflow: hidden;
-    z-index: -1;
     background: #292b2c;
-}
-
-.navbar-region-background{
-
 }
 
 .header-data{
     z-index: 1;
     color: white;
+    position: relative;
 }
 
 
