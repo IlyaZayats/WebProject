@@ -1,3 +1,4 @@
+
 function moveNavbar(){
     let windowInnerWidth = window.innerWidth;
     let navbar = $("#navbar");

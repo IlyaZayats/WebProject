@@ -13,7 +13,6 @@
     z-index: 0;
     position: absolute;
     height: auto;
-    object-fit: contain;
 }
 
 .achievement-tab{
