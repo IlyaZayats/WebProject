@@ -1,21 +1,36 @@
-
+//функция смены позиции навбара
 function moveNavbar(){
     let windowInnerWidth = window.innerWidth;
     let navbar = $("#navbar");
-    if(windowInnerWidth <= 576) {
+    if(windowInnerWidth <= 768) {
         navbar.addClass("fixed-bottom");
         navbar.addClass("bg-dark");
-
+        $(".video-bck").remove();
     }
-    if(windowInnerWidth >= 576){
+    if(windowInnerWidth >= 768){
         navbar.removeClass("fixed-bottom");
         navbar.removeClass("bg-dark");
     }
 }
 
+//показ дропдауна
+function showDropdown(navbarDropdown, list){
+    $(navbarDropdown).addClass("show");
+    $(navbarDropdown).prop("aria-expanded", true);
+    $(list).addClass("show");
+}
+
+//скрытие дропдауна
+function hideDropdown(navbarDropdown, list){
+    $(navbarDropdown).removeClass("show");
+    $(navbarDropdown).prop("aria-expanded", false);
+    $(list).removeClass("show");
+}
+
 
 $(document).ready(function (){
 
+    //перемещаем навбар через ивент
     moveNavbar();
     $(window).resize((event)=>{
         moveNavbar();
@@ -30,13 +45,6 @@ $(document).ready(function (){
     });
 
     let data = document.querySelectorAll(".info");
-    data.forEach(function (element) {
-        element.value = localStorage.getItem(element.name);
-        element.addEventListener("blur", function (event) {
-            localStorage.setItem(event.target.name, event.target.value);
-        });
-    });
-
     const ajaxSend = (formData) => {
         fetch("https://formcarry.com/s/1TauRT8f23J", {
             method: "POST",
