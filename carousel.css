@@ -2,7 +2,6 @@
     max-width: 720px;
     background-color: white;
     border: solid 2px black;
-    padding: 66px 5px 66px 64px;
 }
 .arrowslick{
     border-top: solid 1px grey;
@@ -25,7 +24,6 @@
 @media screen and (min-width: 768px){
     .reviewSlide{
     border-right: solid 1px grey;
-    margin:auto;
     }
     .arrowslick{
     border-top: 0;
