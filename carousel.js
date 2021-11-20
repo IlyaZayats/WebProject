@@ -27,7 +27,7 @@ $(document).ready(function () {
         autoplay: true,
         autoplaySpeed: 2000,
         centerMode: true,
-        centerPadding:"80px",
+        centerPadding:"20px",
         responsive: [
             {
               breakpoint: 768,
@@ -51,7 +51,7 @@ $(document).ready(function () {
         autoplay: true,
         autoplaySpeed: 2000,
         centerMode: true,
-        centerPadding:"120px",
+        centerPadding:"20px",
         responsive: [
             {
               breakpoint: 768,
