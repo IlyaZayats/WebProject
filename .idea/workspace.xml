@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31a62204-3ef4-4026-9cb3-9ed337ae8cfa" name="Changes" comment="Almost completed header">
+    <list default="true" id="31a62204-3ef4-4026-9cb3-9ed337ae8cfa" name="Changes" comment="добавил 2 фоновые коробки у ревью и выровнял, закруглил границы блока">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accordion.css" beforeDir="false" afterPath="$PROJECT_DIR$/accordion.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/carousel.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +32,9 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="212mxZ9nY2dJZ3KJs6RoQIlwFke" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -61,7 +63,7 @@
       <workItem from="1637310570349" duration="11299000" />
       <workItem from="1637334050594" duration="1969000" />
       <workItem from="1637340325751" duration="1972000" />
-      <workItem from="1637393400080" duration="6343000" />
+      <workItem from="1637393400080" duration="12573000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1637168469185</created>
@@ -147,7 +149,21 @@
       <option name="project" value="LOCAL" />
       <updated>1637322457932</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Almost completed header">
+      <created>1637399905441</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1637399905441</updated>
+    </task>
+    <task id="LOCAL-00014" summary="добавил 2 фоновые коробки у ревью и выровнял, закруглил границы блока">
+      <created>1637400008911</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1637400008911</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,7 +197,8 @@
     <MESSAGE value="1" />
     <MESSAGE value="New:&#10;1)Video background;&#10;2)Header as like DrupalCoder&#10;3)Some useless scripts" />
     <MESSAGE value="Almost completed header" />
-    <option name="LAST_COMMIT_MESSAGE" value="Almost completed header" />
+    <MESSAGE value="добавил 2 фоновые коробки у ревью и выровнял, закруглил границы блока" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил 2 фоновые коробки у ревью и выровнял, закруглил границы блока" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

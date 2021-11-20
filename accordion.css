@@ -1,40 +1,47 @@
 .active {
-    color: red;
-  }
-   .accordion {
+    color: darkred;
+}
+.accordion {
     margin: auto;
     max-width: 960px;
-    border-bottom: solid 1px #c4c4c4;
-  }
-  .accordion-group{
+}
+
+#faqRegion{
+    margin-bottom: 25px;
+    font-size: 50px;
+    border-bottom: solid 1px rgb(41, 43, 44, 0.25);
+}
+
+.accordion-group{
     display: flex;
     flex-direction: column;
-  }
+}
+
+.accordion-wrapper{
+    margin: 50px 100px 50px 100px;
+}
 
   .accordion-header {
-    background: #e9e7e7 url(images/arrow-square.gif) no-repeat right -51px;
+    background: white;
     padding: 7px 15px;
     margin: 0;
     font: bold 120%/100% Arial, Helvetica, sans-serif;
-    border: solid 1px #c4c4c4;
-    border-bottom: none;
     cursor: pointer;
   }
   .accordion-group.toggle{
-    border: 1px solid red;
+    border: 2px solid darkred;
   }
   .accordion-header:hover {
-    background-color: #e3e2e2;
-  }
-
-  .accordion header.active {
-    background-position: right 5px;
+    background-color: white;
   }
 
   .accordion-content {
-    background: #f7f7f7;
-    margin: 0;
+    background: transparent;
     padding: 10px 15px 20px;
-    border-left: solid 1px #c4c4c4;
-    border-right: solid 1px #c4c4c4;
   }
+
+@media screen and (max-width: 760px){
+  .accordion-wrapper{
+    margin: 25px 50px 25px 50px;
+  }
+}

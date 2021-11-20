@@ -10,8 +10,12 @@
     border-left: solid 1px rgb(41, 43, 44, 0.25);
 }
 
+.review-sign{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
 .review-content{
-    margin-top: 100px;
     height: auto;
     position: relative;
     background: white;
@@ -74,6 +78,14 @@
     height: auto;
 }
 
+.review-bg{
+    background-size: cover;
+    position: absolute;
+    z-index: -2;
+    display: block;
+}
+
+
 @media screen and (max-width: 760px){
     .arrows-slick{
         border-top: solid 1px grey;
@@ -93,7 +105,12 @@
         right: 68px;
         top: -48px
     }
+    .review-sign{
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
 }
+
 
 @media screen and (max-width: 540px){
     #reviewContainerCarousel{
@@ -109,5 +126,9 @@
         left:34px;
         right:34px;
         top:-34px;
+    }
+    .review-sign{
+        margin-top: 30px;
+        margin-bottom: 40px;
     }
 }
