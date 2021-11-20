@@ -19,10 +19,13 @@
 
 <body>
     <header class="navbar-region">
+        <div class="header-background">
+            <img class="img-fluid troll-face" src="img/header-back.png">
+        </div>
         <video autoplay muted loop class="video-bck">
             <source src="img/video.mp4" type="video/mp4">
         </video>
-        <div class="navbar navbar-expand-sm navbar-dark" id="navbar">
+        <div class="navbar navbar-expand-md navbar-dark" id="navbar">
             <div class="container-fluid">
                 <a class="navbar-brand main-title text-light" href="#">
                     <img class="img-fluid" src="img/icon.png" alt="Project">
@@ -31,62 +34,111 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarToggler">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav mx-auto">
                         <li class="nav-item">
                             <a class="nav-link active text-light navbar-effect" aria-current="page" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-light navbar-effect" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">FAQ</a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-light navbar-effect" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                        <li class="nav-item dropdown" onmouseover="showDropdown('#navbarDropdown-1','#list-1')" onmouseout="hideDropdown('#navbarDropdown-1','#list-1')">
+                            <a class="nav-link dropdown-toggle text-light navbar-effect" href="#" id="navbarDropdown-1" role="button" data-toggle="dropdown" aria-expanded="false">
                             Links
                             </a>
-                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                            <ul id="list-1" class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown-1">
                                 <li><a class="dropdown-item text-light" href="https://github.com/IlyaZayats/WebProject">Go to Github</a></li>
                                 <li><a class="dropdown-item text-light" href="https://ru.stackoverflow.com/">Go to StackOverflow</a></li>
                                 <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item text-light" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">This button do literally nothing</a></li>
                             </ul>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light navbar-effect" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Advertisement</a>
+                        </li>
+                        <li class="nav-item dropdown" onmouseover="showDropdown('#navbarDropdown-2','#list-2')" onmouseout="hideDropdown('#navbarDropdown-2','#list-2')">
+                            <a class="nav-link dropdown-toggle text-light navbar-effect" href="#" id="navbarDropdown-2" role="button" data-toggle="dropdown" aria-expanded="false">
+                                About us
+                            </a>
+                            <ul id="list-2" class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown-2">
+                                <li><a class="dropdown-item text-light" href="#">Our team</a></li>
+                                <li><a class="dropdown-item text-light" href="#">Our Blog</a></li>
+                                <li><a class="dropdown-item text-light" href="#">Vacancies</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light navbar-effect" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light navbar-effect" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Contacts</a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="header-data container-fluid">
-            <div class="row d-flex px-2 mt-sm-5 my-2 px-0 pb-3" id="header-data">
+            <div class="row d-flex px-2 mt-sm-5 my-2 px-0 pb-3 align-items-center" id="header-data">
                 <div class="col-sm-4 col-10 ms-sm-3 me-sm-2 mx-auto px-0 text-center">
-                    <h3>Developing shit on JS with Bootstrap v5.0.1Alpha</h3>
-                    <h5>Service of development shitty cites on fucked up language, we are working from 2021 bc.</h5>
-                    <a role="button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-outline-light">
+                    <div class="text-about-main">
+                        Developing shit
+                        <br/>
+                        on JS with Bootstrap v5.0.1Alpha
+                    </div>
+                    <div class="text-about-service">
+                        Service of development shitty cites on fucked up language,
+                        <br/>
+                        we are working from 2021 bc.
+                    </div>
+                    <a role="button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-outline-light mt-2">
                         Buy our shit!
                     </a>
                 </div>
                 <div class="col-sm-7 col-11 me-sm-3 mx-auto mt-3">
                     <div class="row">
-                        <div class="col-4 achievement-tab">
-                            <h3>#228</h3>
-                            <p>The worst frontend developer</p>
+                        <div class="col-sm-4 col-5 achievement-tab ms-auto me-auto">
+                            <h4>#228</h4>
+                            <p class="extra-text">
+                                The worst
+                                <br/>
+                                frontend developer
+                            </p>
                         </div>
-                        <div class="col-4 achievement-tab">
-                            <h3>0+</h3>
-                            <p>Our average work experience</p>
+                        <div class="col-sm-4 col-5 achievement-tab ms-auto me-auto">
+                            <h4>0+</h4>
+                            <p class="extra-text">
+                                Our average
+                                <br/>
+                                work experience
+                            </p>
                         </div>
-                        <div class="col-4 achievement-tab">
-                            <h3>0</h3>
-                            <p>In IT</p>
+                        <div class="col-sm-4 col-5 achievement-tab mt-sm-0 mt-4 ms-auto me-auto">
+                            <h4>0</h4>
+                            <p class="extra-text">
+                                In IT
+                            </p>
                         </div>
-                        <div class="col-4 achievement-tab mt-4">
-                            <h3>999+</h3>
-                            <p>Warnings and errors per line</p>
+                        <div class="col-sm-4 col-5 achievement-tab mt-4 ms-auto me-auto">
+                            <h4>999+</h4>
+                            <p class="extra-text">
+                                Warnings and errors
+                                <br/>
+                                per line
+                            </p>
                         </div>
-                        <div class="col-4 achievement-tab mt-4">
-                            <h3>#1</h3>
-                            <p>This is first our project cite</p>
+                        <div class="col-sm-4 col-5 achievement-tab mt-4 ms-auto me-auto">
+                            <h4>#1</h4>
+                            <p class="extra-text">
+                                This is our
+                                <br/>
+                                first project site
+                            </p>
                         </div>
-                        <div class="col-4 achievement-tab mt-4">
-                            <h3>IDK</h3>
-                            <p>IDK what to write here</p>
+                        <div class="col-sm-4 col-5 achievement-tab mt-4 ms-auto me-auto">
+                            <h4>IDK</h4>
+                            <p class="extra-text">
+                                IDK what
+                                <br/>
+                                to write
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -94,57 +146,42 @@
         </div>
     </header>
 
-    <div class="bck-main"></div>
-        <div class="main">
-            <div class="container">
-                <div class="row d-flex">
-                    <div class="col-4 mx-auto">
-                        <a>
-
-                        </a>
-                    </div>
-                    <div class="col-4 mx-auto">
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid" id="reviewContainerCarousel">
-            <div class="contents row row-cols-1 row-cols-md-2">
-              <div class="reviewSlide col-md-8 px-2 py-4 px-md-5 py-md-3">
+    <div class="container-fluid review-content" id="reviewContainerCarousel">
+        <div class="row">
+            <div class="reviewSlide col-md-8 col-sm-9 col-11 py-3 mx-auto">
                 <div>
-                <img src="img/logo_0.png" alt="cielparfum"/>    
-                <p>"Долгие поиски единственного и неповторимого мастера на многострадальный сайт www.cielparfum.com, который был собран крайне некомпетентным программистом и раз в месяц стабильно грозил погибнуть, 
-                    привели меня на сайт и, в итоге, к ребятам из Drupal-coder. И вот уже практически полгода как не проходит и дня, чтобы я не поудивлялась и не порадовалась своему везению! Починили все, что не работало 
-                    - от поиска до отображения меню. Провели редизайн - не отходя от желаемого, но со своими существенными и качественными дополнениями. Осуществили ряд проектов - конкурсы, тесты и тд. А уж мелких починок и доработок - не счесть! И главное - все качественно и быстро (не взирая на не самый "быстрый" тариф). 
-                    Есть вопросы - замечательный Алексей всегда подскажет, поддержит, отремонтирует и/или просто сделает с нуля. Есть задумка для реализации - замечательный Сергей обсудит и предложит идеальный вариант. Есть проблема - замечательные Надежда и Роман починят, поправят, сделают! Ребята доказали, что эта CMS - мощная и грамотная система управления.
-                     Надеюсь, что наше сотрудничество затянется надолго! Спасибо!!!"
-                </p>
-                <p> С уважением, Наталья Сушкова руководитель Отдела веб-проектов Группы компаний «Си Эль парфюм» <a href="http://www.cielparfum.com/">http://www.cielparfum.com/</a> </p>
+                    <img src="img/logo_0.png" alt="cielparfum"/>
+                    <p>"Долгие поиски единственного и неповторимого мастера на многострадальный сайт www.cielparfum.com, который был собран крайне некомпетентным программистом и раз в месяц стабильно грозил погибнуть,
+                        привели меня на сайт и, в итоге, к ребятам из Drupal-coder. И вот уже практически полгода как не проходит и дня, чтобы я не поудивлялась и не порадовалась своему везению! Починили все, что не работало
+                        - от поиска до отображения меню. Провели редизайн - не отходя от желаемого, но со своими существенными и качественными дополнениями. Осуществили ряд проектов - конкурсы, тесты и тд. А уж мелких починок и доработок - не счесть! И главное - все качественно и быстро (не взирая на не самый "быстрый" тариф).
+                        Есть вопросы - замечательный Алексей всегда подскажет, поддержит, отремонтирует и/или просто сделает с нуля. Есть задумка для реализации - замечательный Сергей обсудит и предложит идеальный вариант. Есть проблема - замечательные Надежда и Роман починят, поправят, сделают! Ребята доказали, что эта CMS - мощная и грамотная система управления.
+                        Надеюсь, что наше сотрудничество затянется надолго! Спасибо!!!"
+                    </p>
+                    <p> С уважением, Наталья Сушкова руководитель Отдела веб-проектов Группы компаний «Си Эль парфюм» <a href="http://www.cielparfum.com/">http://www.cielparfum.com/</a> </p>
                 </div>
                 <div>
-                <img src="img/logo.png" alt="personalwriter"/>
-                  <p>"Сергей — профессиональный, высококвалифицированый программист с огромным опытом в ИТ. Я долгое время общался с топ-фрилансерами (вся первая двадцатка) на веблансере и могу сказать,
-                что С СЕРГЕЕМ ОНИ И РЯДОМ НЕ ВАЛЯЛИСЬ. Работаем с Сергеем до сих пор. С ним приятно работать, я доволен. "</p>
-                  <p> Сергей Чепурко, руководитель проекта  
-                    <a href="http://www.personal-writer.com/">http://www.personal-writer.com/</a> 
-                    /
-                    <a href="http://www.writers-united.org/">http://www.writers-united.org/</a>
-                </p>
+                    <img src="img/logo.png" alt="personalwriter"/>
+                    <p>"Сергей — профессиональный, высококвалифицированый программист с огромным опытом в ИТ. Я долгое время общался с топ-фрилансерами (вся первая двадцатка) на веблансере и могу сказать,
+                        что С СЕРГЕЕМ ОНИ И РЯДОМ НЕ ВАЛЯЛИСЬ. Работаем с Сергеем до сих пор. С ним приятно работать, я доволен. "</p>
+                    <p> Сергей Чепурко, руководитель проекта
+                        <a href="http://www.personal-writer.com/">http://www.personal-writer.com/</a>
+                        /
+                        <a href="http://www.writers-united.org/">http://www.writers-united.org/</a>
+                    </p>
                 </div>
                 <div><img src="img/farbors_ru.jpg" alt="stroimaterialy"/>
-                  <p>"Выражаю глубочайшую благодарность команде специалистов компании "Инитлаб" и лично Дмитрию Купянскому и Алексею Синице.
-                       Сайт был первоклассно перевёрстан из старой табличной модели в новую на базе Drupal с дополнительной функциональностью.
-                       Всё было сделано с высочайшим качеством и точно в сроки. Всем кому хочется без нервов и лишних вопросов разработать сайт рекомендую обращаться именно к этой команде профессионалов. "
-                  </p>
-                  <p> Леонид Александрович Ледовский </p> 
+                    <p>"Выражаю глубочайшую благодарность команде специалистов компании "Инитлаб" и лично Дмитрию Купянскому и Алексею Синице.
+                        Сайт был первоклассно перевёрстан из старой табличной модели в новую на базе Drupal с дополнительной функциональностью.
+                        Всё было сделано с высочайшим качеством и точно в сроки. Всем кому хочется без нервов и лишних вопросов разработать сайт рекомендую обращаться именно к этой команде профессионалов. "
+                    </p>
+                    <p> Леонид Александрович Ледовский </p>
                 </div>
-              </div>
-              <div class="arrowslick text-center d-flex col-md-4">
-                  <div class="arrowwrap d-block mx-auto my-3 my-md-auto"  id="arrows">
+            </div>
+            <div class="arrows-slick text-center d-flex col-md-4 col-sm-9 col-11 my-md-4 my-2 mx-auto">
+                <div class="arrows-wrapper d-block mx-auto my-md-auto my-3"  id="arrows">
                     <span class="current">01</span>
-                    /08
-              </div> 
+                    / 08
+                </div>
             </div>
            </div>
          </div>
@@ -238,6 +275,118 @@
               </span>
             </div>
           </div>
+      
+        <div class="container-fluid pt-3 pb-md-0 pb-5 footer-region">
+        <div class="footer-region-background"></div>
+        <div class="row d-flex mt-2 px-2">
+            <div class="col-md-8 col-11 mx-auto px-0">
+                <div class="row">
+                    <div class="col-md-5 col-11 mx-auto">
+                        <h5 class="text-light text-md-start text-center">
+                            Leave us your
+                            <br/>
+                            fucking worthless
+                            <br/>
+                            message!
+                        </h5>
+                        <p class="text-light text-start">
+                            Do you need our
+                            help in creating of your
+                            website's project?
+                            No? Go fuck yourself!
+                            Or if you need it, just leave
+                            us your message!
+                        </p>
+                        <div class="text-start">
+                            <a class="text-light text-decoration-none phone" href="tel:89604952331">
+                                <img class="phone-img" src="img/phone.png" alt="phone">
+                                89604952331
+                            </a>
+
+                        </div>
+                        <div class="text-start">
+                            <a class="text-light email" href="mailto:zayatsman@gmail.com">
+                                <img class="email-img" src="img/email.png" alt="email">
+                                zayatsman@gmail.com
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-11 mx-auto">
+                        <form id="thatForm" action="https://formcarry.com/s/1TauRT8f23J" method="POST" enctype="multipart/form-data" accept-charset="UTF-8">
+                            <div class="form-row">
+                                <div class="col-12">
+                                    <label class="text-light form-item"><br/>
+                                        <input class="form-control form-control-md info" type="text" name="userName" placeholder="Your name" autocomplete="off">
+                                    </label><br/>
+                                </div>
+                                <div class="col-12">
+                                    <label class="text-light form-item"><br/>
+                                        <input class="form-control form-control-md info" type="text" name="userPhone" placeholder="Phone number" autocomplete="off">
+                                    </label><br/>
+                                </div>
+                                <div class="col-12">
+                                    <label class="text-light form-item"><br/>
+                                        <input class="form-control form-control-md info" type="email" name="userEmail" placeholder="Email" autocomplete="off">
+                                    </label><br/>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-item"><br/>
+                                        <textarea class="form-control form-control-md info" name="userMsg" placeholder="Commentary" autocomplete="off"></textarea>
+                                    </label><br/>
+                                </div>
+                                <div class="col-12">
+                                    <label class="text-light form-item">
+                                        <input type="checkbox" id="check" class="info">
+                                        I agreed with lefties politics
+                                    </label><br/>
+                                </div>
+                                <div class="col-12 mt-3">
+                                    <input class="btn btn-outline-light btn-lg"type="submit" id="submitButton" value="Send!" disabled>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8 col-11 mx-auto px-0 mt-md-3 mt-5 border-social">
+                <div class="social-links mt-1">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <a href="https://ru-ru.facebook.com/">
+                                <img class="social-img" src="img/facebook.png" alt="facebook">
+                            </a>
+                        </li>
+                        <li class="list-inline-item social-links-item">
+                            <a href="https://twitter.com/?lang=ru">
+                                <img class="social-img" src="img/twitter.png" alt="twitter">
+                            </a>
+                        </li>
+                        <li class="list-inline-item social-links-item">
+                            <a href="https://vk.com/">
+                                <img class="social-img" src="img/vk.png" alt="vk">
+                            </a>
+                        </li>
+                        <li class="list-inline-item social-links-item">
+                            <a href="https://www.instagram.com/?hl=ru">
+                                <img class="social-img" src="img/instagram.png" alt="instagram">
+                            </a>
+                        </li>
+                        <li class="list-inline-item social-links-item">
+                            <a href="https://www.youtube.com/?hl=RU">
+                                <img class="social-img" src="img/youtube.png" alt="youtube">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <p class="text-light">
+                    WebProject by IlyaZayats and Melikovman
+                    <br/>
+                    Bruh
+                </p>
+            </div>
+        </div>
+    </div>
+
 <script src="js/jquery_v3.6.0.js"></script>
 <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="slick/slick.min.js" defer></script>
