@@ -1,31 +1,134 @@
 #reviewContainerCarousel{
-    max-width: 720px;
-    background-color: white;
-    border: solid 2px black;
+    max-width: 768px;
+    border-radius: 5px;
+    border: solid 1px rgb(41, 43, 44, 0.25);
+    box-shadow: 0 4px 60px rgb(41, 43, 44, 0.25);
 }
-.arrowslick{
-    border-top: solid 1px grey;
+
+.arrows-slick{
+    border-top: 0;
+    border-left: solid 1px rgb(41, 43, 44, 0.25);
 }
+
+.review-sign{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.review-content{
+    height: auto;
+    position: relative;
+    background: white;
+}
+
+.review-content:before{
+    content: "";
+    display: block;
+    background: #fff;
+    opacity: .5;
+    border:  solid 1px rgb(41, 43, 44, 0.25);
+    box-sizing: border-box;
+    box-shadow:0 4px 60px rgb(41, 43, 44, 0.25);
+    border-radius: 5px;
+    position: absolute;
+    top: -44px;
+    bottom: 0;
+    left: 64px;
+    right: 64px;
+    z-index: -1;
+}
+
+.review-content:after{
+    content: "";
+    display: block;
+    background: #fff;
+    opacity: .34;
+    border: solid 1px rgb(41, 43, 44, 0.1);
+    box-sizing: border-box;
+    box-shadow: 0 4px 60px rgb(162 162 162 / 25%);
+    border-radius: 5px;
+    position: absolute;
+    top: -78px;
+    bottom: 0;
+    left: 128px;
+    right: 128px;
+    z-index: -2;
+}
+
 .reviewSlide img{
     margin:0 0 2em 0;
 }
+
+#nextReview:focus, #prevReview:focus{
+    box-shadow: 0 4px 60px transparent;
+}
+
 .workingWithCarouselWrapper{
-  margin: 50px 0 5px 0;
+    margin: 50px 0 5px 0;
 }
+
 .workingwithInside{
-  border: solid 2px grey;
-  border-radius: 5px;
-  margin:0 6px;
+    border: solid 2px grey;
+    border-radius: 5px;
+    margin:0 6px;
 }
+
 .workingwithInside > img {
-   width: 100%;
-   height: auto;
+    width: 100%;
+    height: auto;
 }
-@media screen and (min-width: 768px){
-    .reviewSlide{
-    border-right: solid 1px grey;
+
+.review-bg{
+    background-size: cover;
+    position: absolute;
+    z-index: -2;
+    display: block;
+}
+
+
+@media screen and (max-width: 760px){
+    .arrows-slick{
+        border-top: solid 1px grey;
+        border-left: 0;
     }
-    .arrowslick{
-    border-top: 0;
+    #reviewContainerCarousel{
+        max-width: 440px;
+        font-size: 15px;
+    }
+    .review-content:before{
+        left: 32px;
+        right: 32px;
+        top: -30px;
+    }
+    .review-content:after{
+        left: 68px;
+        right: 68px;
+        top: -48px
+    }
+    .review-sign{
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+}
+
+
+@media screen and (max-width: 540px){
+    #reviewContainerCarousel{
+        max-width: 340px;
+        font-size: 15px;
+    }
+    .review-content:before{
+        left: 16px;
+        right: 16px;
+        top: -20px;
+    }
+    .review-content:after{
+        left:34px;
+        right:34px;
+        top:-34px;
+    }
+    .review-sign{
+        margin-top: 30px;
+        margin-bottom: 40px;
     }
 }
