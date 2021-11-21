@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31a62204-3ef4-4026-9cb3-9ed337ae8cfa" name="Changes" comment="добавил 2 фоновые коробки у ревью и выровнял, закруглил границы блока">
+    <list default="true" id="31a62204-3ef4-4026-9cb3-9ed337ae8cfa" name="Changes" comment="добавил подписи, фоновое изображение(висит статично, хз как фиксить) для отзывов">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accordion.css" beforeDir="false" afterPath="$PROJECT_DIR$/accordion.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/carousel.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,9 @@
       <workItem from="1637310570349" duration="11299000" />
       <workItem from="1637334050594" duration="1969000" />
       <workItem from="1637340325751" duration="1972000" />
-      <workItem from="1637393400080" duration="12573000" />
+      <workItem from="1637393400080" duration="12795000" />
+      <workItem from="1637438818304" duration="182000" />
+      <workItem from="1637479864009" duration="9248000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1637168469185</created>
@@ -163,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637400008911</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="добавил подписи, фоновое изображение(висит статично, хз как фиксить) для отзывов">
+      <created>1637406323258</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1637406323258</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +206,8 @@
     <MESSAGE value="New:&#10;1)Video background;&#10;2)Header as like DrupalCoder&#10;3)Some useless scripts" />
     <MESSAGE value="Almost completed header" />
     <MESSAGE value="добавил 2 фоновые коробки у ревью и выровнял, закруглил границы блока" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавил 2 фоновые коробки у ревью и выровнял, закруглил границы блока" />
+    <MESSAGE value="добавил подписи, фоновое изображение(висит статично, хз как фиксить) для отзывов" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавил подписи, фоновое изображение(висит статично, хз как фиксить) для отзывов" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
