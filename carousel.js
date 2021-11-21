@@ -18,50 +18,46 @@ $(document).ready(function () {
         $(".current").html("0"+(dataId+=1))
     });
     $("#workingwithcarouselupper").slick({
-        adaptiveHeight: true,
-        mobileFirst: true,
-        dots: false,
-        arrows: false,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        centerMode: true,
-        centerPadding:"20px",
-        responsive: [
-            {
-              breakpoint: 768,
-              settings: {
-                arrows: false,
-                centerMode: true,
-                centerPadding: '100px',
-                slidesToShow: 5
-              }
-            },
-         ]
-    }
-    );
-    $("#workingwithcarousellower").slick({
-        adaptiveHeight: true,
-        mobileFirst: true,
-        dots: false,
-        arrows: false,
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 2000,
-        centerMode: true,
-        centerPadding:"20px",
-        responsive: [
-            {
-              breakpoint: 768,
-              settings: {
-                arrows: false,
-                centerMode: true,
-                centerPadding: '30px',
-                slidesToShow: 6
-              }
-            },
-         ]
-    }); 
+      adaptiveHeight: false,
+      mobileFirst: true,
+      dots: false,
+      arrows: false,
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      centerMode: true,
+      centerPadding:"16%",
+      responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 5,
+              centerPadding:"10%",
+            }
+          },
+       ]
+  }
+  );
+  $("#workingwithcarousellower").slick({
+      adaptiveHeight: false,
+      mobileFirst: true,
+      dots: false,
+      arrows: false,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+      centerMode: true,
+      centerPadding:"33%",
+      responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 6,
+              centerPadding:"2%",
+            }
+          },
+       ]
+  }); 
 });
