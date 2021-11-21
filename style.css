@@ -138,6 +138,23 @@
     box-shadow: 0 0 0 0.25rem transparent;
 }
 
+.img-competency{
+    width: 70px;
+    height: 70px;
+    margin-bottom: 5px;
+}
+
+.img-competency-wrapper{
+    z-index: 5;
+    position: relative;
+    border-bottom: 2px solid #292b2c;
+}
+
+.text-competency{
+    position: relative;
+    z-index: 6;
+}
+
 @media screen and (max-width: 800px){
 
 }
