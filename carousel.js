@@ -22,44 +22,40 @@ $(document).ready(function () {
         mobileFirst: true,
         dots: false,
         arrows: false,
-        slidesToShow: 3,
+        slidesToShow: 2,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
         centerMode: true,
-        centerPadding:"20px",
+        centerPadding:"16%",
         responsive: [
             {
               breakpoint: 768,
               settings: {
-                arrows: false,
-                centerMode: true,
-                centerPadding: '100px',
-                slidesToShow: 5
+                slidesToShow: 5,
+                centerPadding:"8%",
               }
             },
          ]
     }
     );
     $("#workingwithcarousellower").slick({
-        adaptiveHeight: true,
+        adaptiveHeight: false,
         mobileFirst: true,
         dots: false,
         arrows: false,
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
         centerMode: true,
-        centerPadding:"20px",
+        centerPadding:"33%",
         responsive: [
             {
               breakpoint: 768,
               settings: {
-                arrows: false,
-                centerMode: true,
-                centerPadding: '30px',
-                slidesToShow: 6
+                slidesToShow: 6,
+                centerPadding:"1.5%",
               }
             },
          ]

@@ -49,6 +49,7 @@ margin: 50px 0 5px 0;
 border: solid 2px darkgray;
 border-radius: 5px;
 margin:0 6px;
+box-sizing: border-box;
 }
 .workingwithInside > img {
  width: 100%;
