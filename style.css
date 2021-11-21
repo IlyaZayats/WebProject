@@ -150,12 +150,51 @@
     border-bottom: 2px solid #292b2c;
 }
 
-.text-competency{
+.img-dev{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.dev-steps-icon{
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 5;
+}
+
+.dev-steps-wrapper{
     position: relative;
-    z-index: 6;
+    z-index: 10;
+    box-shadow: 0 4px 100px rgb(162 162 162 / 25%);
+    border-radius: 10px 10px 1px 10px;
+    margin: auto;
+    height: auto;
 }
 
-@media screen and (max-width: 800px){
-
+.dev-steps-body{
+    position: relative;
+    z-index: 11;
+    padding-bottom: 50px;
 }
 
+.number{
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+@media screen and (min-width: 760px) {
+    .dev-steps-wrapper{
+        margin: 0;
+
+    }
+
+    .left-block{
+        margin-right:100px;
+    }
+
+    .right-block{
+        margin-left:100px;
+    }
+
+}
