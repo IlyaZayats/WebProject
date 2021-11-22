@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="31a62204-3ef4-4026-9cb3-9ed337ae8cfa" name="Changes" comment="добавил подписи, фоновое изображение(висит статично, хз как фиксить) для отзывов">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/project/img/laptop.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -67,6 +69,8 @@
       <workItem from="1637479864009" duration="9248000" />
       <workItem from="1637497029478" duration="593000" />
       <workItem from="1637510612369" duration="12437000" />
+      <workItem from="1637563800711" duration="4468000" />
+      <workItem from="1637570332123" duration="2028000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1637168469185</created>
