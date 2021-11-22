@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31a62204-3ef4-4026-9cb3-9ed337ae8cfa" name="Changes" comment="добавил подписи, фоновое изображение(висит статично, хз как фиксить) для отзывов">
+    <list default="true" id="31a62204-3ef4-4026-9cb3-9ed337ae8cfa" name="Changes" comment="много багафф">
+      <change afterPath="$PROJECT_DIR$/dev-adv-theme.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/carousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/project/img/laptop.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -70,7 +70,8 @@
       <workItem from="1637497029478" duration="593000" />
       <workItem from="1637510612369" duration="12437000" />
       <workItem from="1637563800711" duration="4468000" />
-      <workItem from="1637570332123" duration="2028000" />
+      <workItem from="1637570332123" duration="4134000" />
+      <workItem from="1637579454289" duration="4351000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1637168469185</created>
@@ -177,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637406323258</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="много багафф">
+      <created>1637572844086</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1637572844086</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +221,8 @@
     <MESSAGE value="Almost completed header" />
     <MESSAGE value="добавил 2 фоновые коробки у ревью и выровнял, закруглил границы блока" />
     <MESSAGE value="добавил подписи, фоновое изображение(висит статично, хз как фиксить) для отзывов" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавил подписи, фоновое изображение(висит статично, хз как фиксить) для отзывов" />
+    <MESSAGE value="много багафф" />
+    <option name="LAST_COMMIT_MESSAGE" value="много багафф" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

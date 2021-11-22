@@ -1,0 +1,82 @@
+.img-dev{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.dev-steps-icon{
+    bottom: 8px;
+    right: 8px;
+    position: absolute;
+    z-index: 5;
+}
+
+.dev-steps-body-wrapper{
+    height: 200px;
+    border-radius: 10px;
+    background-color: #292b2c;
+    box-shadow: 0 10px 1px rgba(255, 255, 255, 0.5);
+}
+
+.dev-steps-wrapper{
+    position: relative;
+    z-index: 10;
+}
+
+.dev-steps-body{
+    position: relative;
+    z-index: 11;
+    padding-bottom: 50px;
+}
+
+.number{
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.expertise-block{
+    border-left: solid 3px darkred;
+}
+
+.expertise-img{
+    position: relative;
+    z-index: 10;
+}
+
+.expertise-region:before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #292b2c;
+    z-index: -1;
+    background-size: cover;
+}
+
+.img-fluid-ex{
+    height: 80%;
+    width: 100%;
+}
+
+.dev-steps-region{
+    position: relative;
+    z-index: 20;
+    height: 1600px;
+}
+
+.expertise-region{
+    padding-top: 150px;
+    position: relative;
+}
+
+@media screen and (min-width: 768px) {
+    .dev-steps-body-wrapper {
+        height: 250px;
+    }
+    .dev-steps-region{
+        height: 500px;
+    }
+}
