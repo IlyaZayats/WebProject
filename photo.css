@@ -1,0 +1,23 @@
+.team{
+    max-width: 720px;
+}
+.teamImage{
+  padding: 0 10px;
+}
+.teamImage div img{
+    max-width: 100%;
+    height: auto;
+}
+.teamImage p{
+    font-size: smaller;
+}
+@media screen and (min-width: 998px){
+.team{
+    max-width: 960px;
+}
+}
+@media screen and (min-width: 632px){
+.teamImage{
+    padding:0 40px;
+}
+}
