@@ -21,13 +21,13 @@ function addActive(elem){
     elem.classList.remove("py-2");
     elem.classList.add("py-4", "price-block-active");
     elem.parentNode.classList.replace("mt-3","mt-1");
-    $(elem).children(".price-footer").children(".btn-price").toggleClass("btn-lg"); //children(".price-footer").children(".btn-price") заменить на find(".btn-price")?
+    $(elem).children(".price-footer").children(".btn-price").addClass("btn-lg"); //children(".price-footer").children(".btn-price") заменить на find(".btn-price")?
 }                                                                                   //Может быть, будет медленнее работать. 
 function removeActive(elem){
     elem.classList.remove("py-4", "price-block-active");
     elem.classList.add("py-2");
     elem.parentNode.classList.replace("mt-1","mt-3");
-    $(elem).children(".price-footer").children(".btn-price").toggleClass("btn-lg");
+    $(elem).children(".price-footer").children(".btn-price").removeClass("btn-lg");
 }
 function movePriceBlock(targetPriceBlock){
     let windowInnerWidth = window.innerWidth;
