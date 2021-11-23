@@ -11,15 +11,34 @@
     position: relative;
     border-radius: 5px;
     transition: all 0.5s ease-in-out;
+    border: solid 2px gray;
 }
 
 .price-text p{
     margin-bottom: 5px;
 }
 
+.price-wrapper:before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #292b2c;
+    z-index: -1;
+    background-size: cover;
+}
+
+.price-wrapper{
+    padding-bottom: 50px;
+    position: relative;
+}
+
 .price-block-active{
     box-shadow: 0 4px 60px transparent;
-    border: 2px solid darkred;
+    border: 2px solid gray;
 }
 
 .price-text{
@@ -29,16 +48,16 @@
 }
 
 .price-footer{
-    border-top: 2px solid #f7f7f7;
+    border-top: 2px solid gray;
 }
 
 .price-body{
-    border-top: 2px solid #f7f7f7;
+    border-top: 2px solid gray;
 }
 
 @media screen and (min-width: 768px){
     .price-block-active{
-        box-shadow: 0 4px 60px rgb(41, 43, 44, 0.5);
+        box-shadow: 0 10px 0.001em gray;
     }
 }
 

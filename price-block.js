@@ -21,13 +21,13 @@ function addActive(elem){
     elem.classList.remove("py-2");
     elem.classList.add("py-4", "price-block-active");
     elem.parentNode.classList.replace("mt-3","mt-1");
-    $(elem).children(".price-footer").children(".btn-price").toggleClass("btn-lg"); //children(".price-footer").children(".btn-price") заменить на find(".btn-price")?
-}                                                                                   //Может быть, будет медленнее работать. 
+    $(elem).children(".price-footer").children(".btn-price").addClass("btn-lg"); //children(".price-footer").children(".btn-price") заменить на find(".btn-price")?
+}                                                                                   //Может быть, будет медленнее работать. | за скоростью не гонимся гы
 function removeActive(elem){
     elem.classList.remove("py-4", "price-block-active");
     elem.classList.add("py-2");
     elem.parentNode.classList.replace("mt-1","mt-3");
-    $(elem).children(".price-footer").children(".btn-price").toggleClass("btn-lg");
+    $(elem).children(".price-footer").children(".btn-price").removeClass("btn-lg");
 }
 function movePriceBlock(targetPriceBlock){
     let windowInnerWidth = window.innerWidth;
@@ -42,15 +42,15 @@ function movePriceBlock(targetPriceBlock){
 $(document).ready(function () {
     const priceBlock = document.querySelectorAll(".price-block");
     const defaultBlock = priceBlock[1];
-    //const priceBlockWrapper = document.querySelectorAll(".price-block-wrapper"); //нах не нужен, смотри пример
-    //const btnBlock = document.querySelectorAll(".btn-price"); //нах не нужен, смотри пример
+    //const priceBlockWrapper = document.querySelectorAll(".price-block-wrapper"); //нах не нужен, смотри пример | писал это максимально без js XD
+    //const btnBlock = document.querySelectorAll(".btn-price"); //нах не нужен, смотри пример |  писал это максимально без js :))
     //console.log($(priceBlockWrapper.item(0)).find(".price-block"))
     //долбимся с resize'ом окна
     movePriceBlock(defaultBlock);
     $(window).resize((event)=>{
         let activeBlock = document.querySelector(".price-block-active");
         if(activeBlock != undefined) {
-            let i=0;                                //Возможно заменить 3 строчки на 
+            let i=0;                                //Возможно заменить 3 строчки на | ясно, харченко-mode(ну а так хз, побочек не будет? я просто писал это максимально без js :D )
             while(activeBlock != priceBlock[i]){    // let i = Array.from(priceBlock).indexOf(activeBlock)
                 i++;                                // Может быть, будет медленнее работать.
             }

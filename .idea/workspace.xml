@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31a62204-3ef4-4026-9cb3-9ed337ae8cfa" name="Changes" comment="блок с тарифами через 5-ую точку">
-      <change afterPath="$PROJECT_DIR$/img/cross-sign.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/price-block.js" afterDir="false" />
+    <list default="true" id="31a62204-3ef4-4026-9cb3-9ed337ae8cfa" name="Changes" comment="блок с тарифами без bg">
+      <change afterPath="$PROJECT_DIR$/img/dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/harr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/wither.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/price-block.js" beforeDir="false" afterPath="$PROJECT_DIR$/price-block.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/price-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/price-list.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +87,7 @@
       <workItem from="1637605619298" duration="85000" />
       <workItem from="1637644782470" duration="3739000" />
       <workItem from="1637649856113" duration="9298000" />
+      <workItem from="1637700117502" duration="4666000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1637168469185</created>
@@ -220,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637605388273</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="блок с тарифами без bg">
+      <created>1637691091222</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1637691091222</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +270,8 @@
     <MESSAGE value="advantages-block и expertise-block in nut-shell так сказать" />
     <MESSAGE value="поигрался трошке" />
     <MESSAGE value="поигрался трошке(и поменял местами блог и команду)" />
-    <option name="LAST_COMMIT_MESSAGE" value="поигрался трошке(и поменял местами блог и команду)" />
+    <MESSAGE value="блок с тарифами без bg" />
+    <option name="LAST_COMMIT_MESSAGE" value="блок с тарифами без bg" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
