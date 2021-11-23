@@ -41,11 +41,12 @@ function movePriceBlock(targetPriceBlock){
 
 $(document).ready(function () {
     const priceBlock = document.querySelectorAll(".price-block");
+    const defaultBlock = priceBlock[1];
     //const priceBlockWrapper = document.querySelectorAll(".price-block-wrapper"); //нах не нужен, смотри пример
     //const btnBlock = document.querySelectorAll(".btn-price"); //нах не нужен, смотри пример
     //console.log($(priceBlockWrapper.item(0)).find(".price-block"))
     //долбимся с resize'ом окна
-    movePriceBlock(priceBlock[1]);
+    movePriceBlock(defaultBlock);
     $(window).resize((event)=>{
         let activeBlock = document.querySelector(".price-block-active");
         if(activeBlock != undefined) {
@@ -55,7 +56,7 @@ $(document).ready(function () {
             }
             movePriceBlock(priceBlock[i]);
         } else {
-            movePriceBlock(priceBlock[1]);
+            movePriceBlock(defaultBlock);
         }
     });
     priceBlock.forEach((element)=>{
