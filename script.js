@@ -27,6 +27,23 @@ function hideDropdown(navbarDropdown, list){
     $(list).removeClass("show");
 }
 
+function activatePrice(index, priceBlock, priceBlockWrapper, btnBlock){
+    for(let i=0; i<priceBlock.length; i++){
+        if(i==index){
+            btnBlock[i].classList.add("btn-lg");
+            priceBlock[i].classList.remove("py-2");
+            priceBlock[i].classList.add("py-4", "price-block-active");
+            priceBlockWrapper[i].classList.remove("mt-3");
+            priceBlockWrapper[i].classList.add("mt-1");
+        } else {
+            btnBlock[i].classList.remove("btn-lg");
+            priceBlock[i].classList.add("py-2");
+            priceBlock[i].classList.remove("py-4", "price-block-active");
+            priceBlock[i].parentNode.classList.add("mt-3");
+        }
+    }
+}
+
 
 $(document).ready(function (){
 
@@ -76,6 +93,61 @@ $(document).ready(function (){
         });
     }
 
+    const priceStandard = $(".price-standard");
+    const priceBusiness = $(".price-business");
+    const priceVip = $(".price-vip");
+    const priceBlock = document.querySelectorAll(".price-block");
+    const priceBlockWrapper = document.querySelectorAll(".price-block-wrapper");
+    const btnBlock = document.querySelectorAll(".btn-price");
+
+
+    priceStandard.click((event)=>{
+        activatePrice(0, priceBlock, priceBlockWrapper, btnBlock);
+    });
+    priceBusiness.click((event)=>{
+        activatePrice(1, priceBlock, priceBlockWrapper, btnBlock);
+    });
+    priceVip.click((event)=>{
+        activatePrice(2, priceBlock, priceBlockWrapper, btnBlock);
+    });
+
+
+    /*
+    console.log(priceStandard);
+    let currentBlock = event.target.closest(".price-block");
+    console.log(currentBlock);
+    if(currentBlock==priceStandard){
+        priceStandard.removeClass("py-2");
+        priceStandard.removeClass("px-2");
+        priceBusiness.removeClass("py-4");
+        priceBusiness.removeClass("px-4");
+        priceVip.removeClass("py-4");
+        priceVip.removeClass("px-4");
+        priceStandard.addClass("py-4");
+        priceStandard.addClass("px-4");
+
+    }
+    if(currentBlock==priceVip){
+        priceVip.removeClass("py-2");
+        priceVip.removeClass("px-2");
+        priceStandard.removeClass("py-4");
+        priceStandard.removeClass("px-4");
+        priceBusiness.removeClass("py-4");
+        priceBusiness.removeClass("px-4");
+        priceVip.addClass("py-4");
+        priceVip.addClass("px-4");
+    }
+    if(currentBlock==priceBusiness){
+        priceBusiness.removeClass("py-2");
+        priceBusiness.removeClass("px-2");
+        priceStandard.removeClass("py-4");
+        priceStandard.removeClass("px-4");
+        priceVip.removeClass("px-4");
+        priceVip.removeClass("py-4");
+        priceBusiness.addClass("py-4");
+        priceBusiness.addClass("px-4");
+    }
+     */
     /*navbarDrop=$("#navbarDropdown");
     let flag = false;
     navbarDrop.click(function (event){
@@ -91,7 +163,9 @@ $(document).ready(function (){
             flag=false;
         }
     });
-    */
+
+     */
+
 
 
 

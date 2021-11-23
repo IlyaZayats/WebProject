@@ -1,0 +1,20 @@
+.price-block{
+    background: #292b2c;
+    position: relative;
+    border-radius: 5px;
+}
+
+.price-block-active{
+    box-shadow: 0 4px 60px rgb(41, 43, 44, 0.5);
+}
+
+.price-text{
+    margin-top: 10px;
+    position: relative;
+    z-index: 11;
+}
+
+.price-body{
+    border-top: 2px solid #f7f7f7;
+}
+
