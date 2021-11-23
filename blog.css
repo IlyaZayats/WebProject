@@ -8,6 +8,17 @@
     height: 360px;
     cursor: pointer;
 }
+.cringe::before{
+    display: block;
+    content:"";
+    position:absolute;
+    top: 0;
+    right:0;
+    left:0;
+    bottom:0;
+    z-index:5;
+    background:linear-gradient(360deg,rgba(0,0,0,0.7),rgba(0,0,0,0) 50%);
+}
 .blog-guts a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: inherit;
