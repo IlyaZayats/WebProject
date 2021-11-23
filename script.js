@@ -27,26 +27,7 @@ function hideDropdown(navbarDropdown, list){
     $(list).removeClass("show");
 }
 
-function activatePrice(index, priceBlock, priceBlockWrapper, btnBlock){
-    for(let i=0; i<priceBlock.length; i++){
-        if(i==index){
-            btnBlock[i].classList.add("btn-lg");
-            priceBlock[i].classList.remove("py-2");
-            priceBlock[i].classList.add("py-4", "price-block-active");
-            priceBlockWrapper[i].classList.remove("mt-3");
-            priceBlockWrapper[i].classList.add("mt-1");
-        } else {
-            btnBlock[i].classList.remove("btn-lg");
-            priceBlock[i].classList.add("py-2");
-            priceBlock[i].classList.remove("py-4", "price-block-active");
-            priceBlock[i].parentNode.classList.add("mt-3");
-        }
-    }
-}
-
-
 $(document).ready(function (){
-
     //перемещаем навбар через ивент
     moveNavbar();
     $(window).resize((event)=>{
@@ -92,24 +73,6 @@ $(document).ready(function (){
             ajaxSend(formData);
         });
     }
-
-    const priceStandard = $(".price-standard");
-    const priceBusiness = $(".price-business");
-    const priceVip = $(".price-vip");
-    const priceBlock = document.querySelectorAll(".price-block");
-    const priceBlockWrapper = document.querySelectorAll(".price-block-wrapper");
-    const btnBlock = document.querySelectorAll(".btn-price");
-
-
-    priceStandard.click((event)=>{
-        activatePrice(0, priceBlock, priceBlockWrapper, btnBlock);
-    });
-    priceBusiness.click((event)=>{
-        activatePrice(1, priceBlock, priceBlockWrapper, btnBlock);
-    });
-    priceVip.click((event)=>{
-        activatePrice(2, priceBlock, priceBlockWrapper, btnBlock);
-    });
 
 
     /*
