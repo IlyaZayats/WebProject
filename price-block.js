@@ -21,13 +21,13 @@ function addActive(elem){
     elem.classList.remove("py-2");
     elem.classList.add("py-4", "price-block-active");
     elem.parentNode.classList.replace("mt-3","mt-1");
-    $(elem).children(".price-footer").children(".btn-price").addClass("btn-lg"); //children(".price-footer").children(".btn-price") заменить на find(".btn-price")?
-}                                                                                   //Может быть, будет медленнее работать. | за скоростью не гонимся гы
+    $(elem).find(".btn-price").addClass("btn-lg");
+}                                                                                   
 function removeActive(elem){
     elem.classList.remove("py-4", "price-block-active");
     elem.classList.add("py-2");
     elem.parentNode.classList.replace("mt-1","mt-3");
-    $(elem).children(".price-footer").children(".btn-price").removeClass("btn-lg");
+    $(elem).find(".btn-price").removeClass("btn-lg");
 }
 function movePriceBlock(targetPriceBlock){
     let windowInnerWidth = window.innerWidth;
@@ -50,10 +50,11 @@ $(document).ready(function () {
     $(window).resize((event)=>{
         let activeBlock = document.querySelector(".price-block-active");
         if(activeBlock != undefined) {
-            let i=0;                                //Возможно заменить 3 строчки на | ясно, харченко-mode(ну а так хз, побочек не будет? я просто писал это максимально без js :D )
-            while(activeBlock != priceBlock[i]){    // let i = Array.from(priceBlock).indexOf(activeBlock)
-                i++;                                // Может быть, будет медленнее работать.
-            }
+          let i = Array.from(priceBlock).indexOf(activeBlock)
+          //  let i=0;                                //Возможно заменить 3 строчки на | ясно, харченко-mode(ну а так хз, побочек не будет? я просто писал это максимально без js :D )
+          //  while(activeBlock != priceBlock[i]){    // let i = Array.from(priceBlock).indexOf(activeBlock)
+           //     i++;                                // Может быть, будет медленнее работать.
+          //  }
             movePriceBlock(priceBlock[i]);
         } else {
             movePriceBlock(defaultBlock);

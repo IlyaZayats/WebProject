@@ -1,0 +1,29 @@
+.timed-competency{
+    max-width:960px;
+}
+.timed-competency-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex:0 0 auto;
+}
+.timed-competency-header{
+    text-align: center;
+    font-weight: 600;
+}
+.img-timed-competency-wrapper img{
+    display: block;
+    margin:auto;
+}
+@media screen and (min-width: 990px){
+    .timed-competency-wrapper{
+        display: block;
+    }
+    .timed-competency-header{
+        text-align: left;
+    }
+    .img-timed-competency-wrapper img{
+        display: inline-block;
+
+    }
+}
