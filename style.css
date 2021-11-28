@@ -2,7 +2,9 @@
     font-family: sans-serif;
     font-size: 40px;
 }
-
+body{
+    font-family: "Montserrat";
+}
 .video-bck {
     top: 50%;
     width: 100%;
