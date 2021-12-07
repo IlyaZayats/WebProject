@@ -1,5 +1,6 @@
 .blog{
     max-width: 960px;
+    font-size: 16px;
 }
 .blogimage-internalized img{
     opacity:0.8;
@@ -23,7 +24,7 @@
     text-decoration: none;
     color: inherit;
 }
-.blog-guts a:hover h2:hover{
+.blog-guts a:hover h5:hover{
     text-decoration: underline; 
 }
 .blogimage img{
@@ -46,7 +47,7 @@
 .blog-desc p{
     color: black;
 }
-.header-date-internalized h2{
+.header-date-internalized h5{
  color:white;
 }
 .blog-date{
