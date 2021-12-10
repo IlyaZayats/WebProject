@@ -1,5 +1,5 @@
 .active {
-    color: darkred;
+    color: #f14d34;
 }
 .accordion {
     margin: auto;
@@ -29,7 +29,7 @@
     cursor: pointer;
   }
   .accordion-group.toggle{
-    border: 2px solid darkred;
+    border: 2px solid #f14d34;
   }
   .accordion-header:hover {
     background-color: white;

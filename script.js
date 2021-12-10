@@ -2,12 +2,12 @@
 function moveNavbar(){
     let windowInnerWidth = window.innerWidth;
     let navbar = $("#navbar");
-    if(windowInnerWidth <= 768) {
+    if(windowInnerWidth <= 993) {
         navbar.addClass("fixed-bottom");
         navbar.addClass("bg-dark");
         $(".video-bck").remove();
     }
-    if(windowInnerWidth >= 768){
+    if(windowInnerWidth >= 993){
         navbar.removeClass("fixed-bottom");
         navbar.removeClass("bg-dark");
     }
@@ -22,9 +22,12 @@ function showDropdown(navbarDropdown, list){
 
 //скрытие дропдауна
 function hideDropdown(navbarDropdown, list){
-    $(navbarDropdown).removeClass("show");
-    $(navbarDropdown).prop("aria-expanded", false);
-    $(list).removeClass("show");
+    let windowInnerWidth = window.innerWidth;
+    if(windowInnerWidth >= 993) {
+        $(navbarDropdown).removeClass("show");
+        $(navbarDropdown).prop("aria-expanded", false);
+        $(list).removeClass("show");
+    }
 }
 
 $(document).ready(function (){
@@ -73,6 +76,20 @@ $(document).ready(function (){
             ajaxSend(formData);
         });
     }
+
+    $(".navbar-toggler").click(event => {
+        showDropdown('#navbarDropdown-1','#list-1');
+        showDropdown('#navbarDropdown-2','#list-2');
+    });
+
+    // document.querySelectorAll(".dropdown").forEach((element)=>{
+    //     element.addEventListener("mouseover", function (event)=>{
+    //         element.
+    //     })
+    //     element.addEventListener("mouseout", function (event)=>{
+    //
+    //     })
+    // })
 
 
     /*

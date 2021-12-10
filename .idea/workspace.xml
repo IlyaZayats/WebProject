@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31a62204-3ef4-4026-9cb3-9ed337ae8cfa" name="Changes" comment="поигрался со стилями(не финальная версия)">
-      <change afterPath="$PROJECT_DIR$/img/dark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/harr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/wither.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/D-background-opacity.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/D-flying.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/D-footer.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accordion.css" beforeDir="false" afterPath="$PROJECT_DIR$/accordion.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-adv-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/dev-adv-theme.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/price-block.js" beforeDir="false" afterPath="$PROJECT_DIR$/price-block.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/price-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/price-list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +91,9 @@
       <workItem from="1637605619298" duration="85000" />
       <workItem from="1637644782470" duration="3739000" />
       <workItem from="1637649856113" duration="9298000" />
-      <workItem from="1637700117502" duration="5182000" />
+      <workItem from="1637700117502" duration="5359000" />
+      <workItem from="1638953001399" duration="6462000" />
+      <workItem from="1639127025097" duration="8902000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1637168469185</created>
@@ -234,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637704908511</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="поигрался со стилями(не финальная версия)">
+      <created>1637705370953</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1637705370953</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
