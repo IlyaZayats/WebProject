@@ -1,9 +1,9 @@
 $(document).ready(function () {
     console.log("ready!");
     $(".reviewSlide").slick({
-        nextArrow: '<button id="nextReview" type="button" class="btn btn-juliet"> >  <i class="fas fa-chevron-right" aria-hidden="true"></i></button>',
-        prevArrow: '<button id="prevReview" type="button" class="btn btn-juliet"><i class="fas fa-chevron-left" aria-hidden="true"></i> < </button>',
-        appendArrows: $("#arrows"),
+        nextArrow: '<button id="nextReview" type="button" class="btn btn-juliet"><i class="fas fa-chevron-right" aria-hidden="true"></i></button>',
+        prevArrow: '<button id="prevReview" type="button" class="btn btn-juliet"><i class="fas fa-chevron-left" aria-hidden="true"></i> </button>',
+        appendArrows: $(".arrows-block"),
         adaptiveHeight: true,
         dots: false,
         infinite: true,

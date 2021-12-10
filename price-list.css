@@ -54,7 +54,17 @@
 .price-body{
     border-top: 2px solid gray;
 }
-
+.tariff-link-block{
+    color:grey;
+}
+.tariffs-link{
+    text-decoration: underline;
+    color:inherit
+}
+.tariffs-link:hover{
+    color:red;
+    text-decoration: none;
+}
 @media screen and (min-width: 768px){
     .price-block-active{
         box-shadow: 0 10px 0.001em gray;

@@ -60,7 +60,28 @@
 .reviewSlide img{
     margin:0 0 2em 0;
 }
-
+#prevReview{
+    background: url(img/arrow-left.svg) no-repeat center;
+    background-size: contain;
+    width:16px;
+    height:32px;
+    margin:0 16px 0 0;
+}
+#nextReview{
+    background: url(img/arrow-right.svg) no-repeat center;
+    background-size: contain;
+    width:16px;
+    height:32px;
+    margin:0 0 0 16px;
+}
+.arrows-block{
+    margin: 0 32px;
+    font-size: 24px;
+    color:grey;
+}
+.current{
+    color:black;
+}
 #nextReview:focus, #prevReview:focus{
     box-shadow: 0 4px 60px transparent;
 }
