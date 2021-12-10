@@ -11,6 +11,11 @@
 .teamImage p{
     font-size: smaller;
 }
+.all-team-but:hover, .all-team-but:active{
+    color:initial;
+    background-color: initial;
+    border-color: initial;
+}
 @media screen and (min-width: 998px){
 .team{
     max-width: 960px;
