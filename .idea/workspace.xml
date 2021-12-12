@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31a62204-3ef4-4026-9cb3-9ed337ae8cfa" name="Changes" comment="поигрался со стилями(не финальная версия)">
-      <change afterPath="$PROJECT_DIR$/img/D-background-opacity.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/D-flying.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/D-footer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon-bg.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accordion.css" beforeDir="false" afterPath="$PROJECT_DIR$/accordion.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/carousel.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev-adv-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/dev-adv-theme.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/price-block.js" beforeDir="false" afterPath="$PROJECT_DIR$/price-block.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/price-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/price-list.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,6 +54,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -93,7 +89,8 @@
       <workItem from="1637649856113" duration="9298000" />
       <workItem from="1637700117502" duration="5359000" />
       <workItem from="1638953001399" duration="6462000" />
-      <workItem from="1639127025097" duration="8902000" />
+      <workItem from="1639127025097" duration="9694000" />
+      <workItem from="1639304007032" duration="4558000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1637168469185</created>
@@ -249,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637705370953</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="поигрался со стилями(не финальная версия)">
+      <created>1639136097459</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1639136097459</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
