@@ -42,11 +42,21 @@
     z-index: 15;
     box-shadow: 0 4px 60px rgb(162 162 162 / 25%);
 }
-.price-block-wrapper:nth-of-type(2n) .btn-price,
+.price-row:hover .price-block-wrapper:nth-of-type(2n) .price-block .btn-price{
+    background: white;
+    color:#f14d34;
+}
+.price-block-wrapper:nth-of-type(2n) .price-block .btn-price{
+    background: #f14d34;
+    color:white;
+}
+
+.price-row:hover .price-block-wrapper:nth-of-type(2n) .price-block:hover .btn-price,
 .price-block:hover .btn-price{
     background: #f14d34;
     color:white;
 }
+
 .price-text p{
     margin-bottom: 5px;
 }
