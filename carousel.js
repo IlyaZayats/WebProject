@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    console.log("ready!");
+    console.log("evko stole our work, sad!");
     $(".reviewSlide").slick({
         nextArrow: '<button id="nextReview" type="button" class="btn btn-juliet"><i class="fas fa-chevron-right" aria-hidden="true"></i></button>',
         prevArrow: '<button id="prevReview" type="button" class="btn btn-juliet"><i class="fas fa-chevron-left" aria-hidden="true"></i> </button>',

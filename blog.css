@@ -27,6 +27,9 @@
 .blog-guts a:hover h5:hover{
     text-decoration: underline; 
 }
+.blog-guts h5, .blog-guts p{
+    font-size: 14px;
+}
 .blogimage img{
     height: 140px;
     object-fit: cover;
@@ -56,6 +59,9 @@
 @media screen and (min-width: 770px){
     .blog-guts{
         height: 470px;
+    }
+    .blog-guts h5, .blog-guts p{
+        font-size: 18px;
     } 
     .blogimage-internalized img{
         height: 470px;
