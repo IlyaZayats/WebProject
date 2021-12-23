@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31a62204-3ef4-4026-9cb3-9ed337ae8cfa" name="Changes" comment="поигрался со стилями(не финальная версия)">
-      <change afterPath="$PROJECT_DIR$/img/icon-bg.svg" afterDir="false" />
+    <list default="true" id="31a62204-3ef4-4026-9cb3-9ed337ae8cfa" name="Changes" comment="поигрался со стилями(maybe финальная версия)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/carousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev-adv-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/dev-adv-theme.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
@@ -39,6 +37,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="212mxZ9nY2dJZ3KJs6RoQIlwFke" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -90,7 +91,10 @@
       <workItem from="1637700117502" duration="5359000" />
       <workItem from="1638953001399" duration="6462000" />
       <workItem from="1639127025097" duration="9694000" />
-      <workItem from="1639304007032" duration="4558000" />
+      <workItem from="1639304007032" duration="4741000" />
+      <workItem from="1640159970767" duration="49000" />
+      <workItem from="1640165297079" duration="489000" />
+      <workItem from="1640281754449" duration="1543000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1637168469185</created>
@@ -253,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639136097459</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="поигрался со стилями(maybe финальная версия)">
+      <created>1639308713942</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1639308713942</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +292,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -296,7 +306,8 @@
     <MESSAGE value="поигрался трошке(и поменял местами блог и команду)" />
     <MESSAGE value="блок с тарифами без bg" />
     <MESSAGE value="поигрался со стилями(не финальная версия)" />
-    <option name="LAST_COMMIT_MESSAGE" value="поигрался со стилями(не финальная версия)" />
+    <MESSAGE value="поигрался со стилями(maybe финальная версия)" />
+    <option name="LAST_COMMIT_MESSAGE" value="поигрался со стилями(maybe финальная версия)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -219,6 +219,7 @@ body{
 .img-competency-wrapper{
     z-index: 5;
     position: relative;
+    background: url("img/icon-bg.svg") left no-repeat;
 }
 
 .competency-header{
@@ -250,7 +251,7 @@ body{
     font-weight: 500;
     font-size: 14px;
     color: rgba(256,256,256,.7);
-    margin-bottom: 200px;
+    margin-bottom: 50px;
 }
 
 .btn-footer{
@@ -278,7 +279,7 @@ body{
     width: 115px;
     height: 70px;
     background-size: contain;
-    background: url("img/icon-bg.svg") no-repeat center;
+    background: transparent;
     left:20px;
     bottom: -4px;
 }
@@ -293,6 +294,10 @@ body{
     .img-competency-wrapper:before{
         left:54px;
         bottom: -4px;
+        background: url("img/icon-bg.svg") no-repeat center;
+    }
+    .img-competency-wrapper{
+        background: transparent;
     }
 }
 
@@ -300,6 +305,13 @@ body{
     .img-competency-wrapper:before{
         left:-54px;
         bottom: -4px;
+        background: url("img/icon-bg.svg") no-repeat center;
+    }
+    .img-competency-wrapper{
+        background: transparent;
+    }
+    .text-footer-extra{
+        margin-bottom: 200px;
     }
 }
 

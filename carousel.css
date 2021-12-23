@@ -17,6 +17,11 @@
     margin-bottom: 100px;
 }
 
+.review-wrapper{
+    background: url("img/right-quote-sign.svg") left top no-repeat;
+    background-size: auto;
+}
+
 .review-content{
     height: auto;
     position: relative;
