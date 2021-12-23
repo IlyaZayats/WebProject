@@ -56,6 +56,10 @@ $(document).ready(function (){
             body: JSON.stringify(formData)
         })
             .then(function (response) {
+                if(!response.ok)
+                {
+                    throw new Error(response.status);
+                }
                 alert("Сообщение отправлено");
                 data.forEach((element) => { element.value = ""; });
                 $("#check").prop("checked", false);
