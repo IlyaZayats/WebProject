@@ -75,7 +75,7 @@ body{
 }
 
 .text-about-main{
-    font-size: 52px;
+    font-size: 40px;
     line-height: 60px;
     font-weight: bold;
     margin-top: 0;
@@ -124,11 +124,11 @@ body{
 }
 
 .navbar-effect{
-    border-bottom: 3px solid #f14d34;
+    border-bottom: 3px solid transparent;
 }
 
 .nav-link:hover{
-    border-bottom: 3px solid #f14d34;
+    border-bottom: 3px solid transparent;
     transition: border-color 200ms;
 }
 
@@ -223,7 +223,7 @@ body{
 }
 
 .competency-header{
-    font-size: 42px;
+    font-size: 30px;
     font-weight: bold;
     line-height: 1.1;
     font-family: inherit;
@@ -288,6 +288,14 @@ body{
     .dropdown-menu{
         background-color: #f14d34;
     }
+
+    .navbar-effect{
+        border-bottom: 3px solid #f14d34;
+    }
+
+    .nav-link:hover{
+        border-bottom: 3px solid #f14d34;;
+    }
 }
 
 @media screen and (min-width: 600px){
@@ -298,6 +306,12 @@ body{
     }
     .img-competency-wrapper{
         background: transparent;
+    }
+    .competency-header{
+        font-size: 30px;
+    }
+    .text-about-main{
+        font-size:42px;
     }
 }
 
@@ -313,6 +327,7 @@ body{
     .text-footer-extra{
         margin-bottom: 200px;
     }
+
 }
 
 
