@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="31a62204-3ef4-4026-9cb3-9ed337ae8cfa" name="Changes" comment="поигрался со стилями(maybe финальная версия)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="31a62204-3ef4-4026-9cb3-9ed337ae8cfa" name="Changes" comment="final">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +94,7 @@
       <workItem from="1640281754449" duration="1770000" />
       <workItem from="1640286283377" duration="192000" />
       <workItem from="1640329145172" duration="3269000" />
+      <workItem from="1640334926543" duration="364000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1637168469185</created>
@@ -279,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640286467288</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="final">
+      <created>1640334993305</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1640334993305</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,7 +328,8 @@
     <MESSAGE value="блок с тарифами без bg" />
     <MESSAGE value="поигрался со стилями(не финальная версия)" />
     <MESSAGE value="поигрался со стилями(maybe финальная версия)" />
-    <option name="LAST_COMMIT_MESSAGE" value="поигрался со стилями(maybe финальная версия)" />
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
